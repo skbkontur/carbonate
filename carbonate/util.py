@@ -16,7 +16,7 @@ def common_parser(description='untitled'):
 
     parser.add_argument(
         '-c', '--config-file',
-        default='/opt/graphite/conf/carbonate.conf',
+        default='/opt/graphite-storage/conf/carbonate.conf',
         help='Config file to use')
 
     parser.add_argument(
