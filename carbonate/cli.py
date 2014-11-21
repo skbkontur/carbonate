@@ -22,7 +22,7 @@ from .config import Config
 from .cluster import Cluster
 
 
-STORAGE_DIR = '/opt/graphite/storage/whisper'
+STORAGE_DIR = '/opt/graphite-storage/storage/whisper'
 
 
 def carbon_hosts():
