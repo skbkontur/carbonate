@@ -1,7 +1,7 @@
 import sys
 
 # Inject the graphite libs into the system path
-sys.path.insert(0, '/opt/graphite/lib')
+sys.path.insert(0, '/opt/graphite-storage/lib')
 
 # We're going to use carbon's libs directly to do things
 try:
