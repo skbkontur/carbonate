@@ -46,7 +46,8 @@ def fill(src, dst, tstart, tstop):
     # fetch range start-stop from src, taking values from the highest
     # precision archive, thus optionally requiring multiple fetch + merges
     srcHeader = info(src)
-
+    if srcHeader is None:
+        return
     srcArchives = srcHeader['archives']
     srcArchives.sort(key=itemgetter('retention'))
 
